@@ -218,6 +218,7 @@ input, select, textarea {
 		width: 1400px;
 	}
 
+
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
@@ -1980,8 +1981,10 @@ input, select, textarea {
 /* Item */
 
 	.item {
-		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
-		margin-bottom: 40px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		margin-bottom: 20px;
+		border-radius: 10px;
+		border-color: black;
 	}
 
 		.item header {
@@ -1990,6 +1993,9 @@ input, select, textarea {
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
 		}
+		.item:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 			.item header h3 {
 				font-size: 1em;
