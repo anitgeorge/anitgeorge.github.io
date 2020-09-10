@@ -1985,6 +1985,7 @@ input, select, textarea {
 		margin-bottom: 20px;
 		border-radius: 10px;
 		border-color: black;
+		text-align: left;
 	}
 
 		.item header {
@@ -1992,6 +1993,7 @@ input, select, textarea {
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+			text-align: center;
 		}
 		.item:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
