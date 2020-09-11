@@ -103,6 +103,54 @@ body {
   position: relative;
   border-radius: 6px;
 }
+/* Image */
+
+	.image {
+		display: inline-block;
+		border: 0;
+	}
+
+		.image img {
+			display: block;
+			width: 100%;
+		}
+
+		.image.avatar48 {
+			width: 48px;
+			height: 48px;
+			background: #f00;
+		}
+
+			.image.avatar48 img {
+				width: 48px;
+				height: 48px;
+			}
+
+		.image.fit {
+			display: block;
+			width: 100%;
+		}
+
+		.image.featured {
+			display: block;
+			width: 100%;
+			margin: 0 0 2em 0;
+		}
+
+		.image.left {
+			float: left;
+			margin: 0 2em 2em 0;
+		}
+
+		.image.centered {
+			display: block;
+			margin: 0 0 2em 0;
+		}
+
+			.image.centered img {
+				margin: 0 auto;
+				width: auto;
+			}
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
@@ -143,45 +191,50 @@ body {
 <div class="timeline">
   <div class="container left">
     <div class="content">
-	  <h2></h2>
+      <a href="#"class="image avatar48"><img src="images/job1.jpg" alt="" /></a>
       <h3>Amazon Checklist </h3>
       <p>Prototyped, designed, developed and maintained a Business-to-Business web-page on amazon.com with 1000+ unique pre-curated shopping-lists, 15 Million+ users and 80K+ weekly average page-hits. The full stack project was powered by the best of AWS solutions.</b>
-      <p> Amazon [Bangalore | Seattle]  (2017 - 2019) </p>
+      <p> Bangalore | Seattle  (2017 - 2019)</p>
 	</div>
   </div>
   <div class="container right">
     <div class="content">
+      <a href="#"class="image avatar48"><img src="images/job1.jpg" alt="" /></a>
       <h3>Sentiment Analysis on Customer Reviews </h3>
       <p>Implemented a web service to fetch product reviews from Amazon’s Review datastores, extract sentiments from the Natural Language Texts using Amazon proprietary Natural language processing libraries and rank products based on customer sentiments.</b>
-      <p> Amazon, Bangalore  (2016 - 2017) </p>
+      <p> Bangalore  (2016 - 2017) </p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
+      <a href="#"class="image avatar48"><img src="images/job3.jpg" alt="" /></a>
       <h3>Handwriting Recognition Engine  </h3>
       <p>Designed, implemented and integrated a Time Series based Real-time Intelligent Character Recognition(ICR) engine for handwriting recognition on Android Platform which supports character recognition,word prediction, word correction and next word prediction. Programming Language:  Java.</p>
-      <p> Samsung, Noida  (2014 - 2016) </p>
+      <p> Noida  (2014 - 2016) </p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
+      <a href="#"class="image avatar48"><img src="images/job3.jpg" alt="" /></a>
       <h3>Android Clocks</h3>
       <p>Worked on Samsung’s Android Clock application which supportedClock, Timer, Stopwatch etc as a single apk bindle.Worked on theDaylight-saving time computation logic and Right to Left rendering for RTL languages.Programming Language: Java.</p>
-      <p> Samsung, Noida  (2014 - 2014) </p>
+      <p> Noida  (2014 - 2014) </p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
+      <a href="#"class="image avatar48"><img src="images/job3.jpg" alt="" /></a>
       <h3>Geolocation Finder  </h3>
       <p>Designed and Prototyped a location tracking Application for Tizen OS using Samsung Proprietary Cell Tower Triangulation libraries.  Programming Language: C++.</p>
-      <p> Samsung, Noida  (2013 - 2014) </p>
+      <p>Noida  (2013 - 2014) </p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
+      <a href="#"class="image avatar48"><img src="images/job3.jpg" alt="" /></a>
       <h3>T9 based Predictive Text</h3>
       <p>Implemented Text prediction engine for Samsung ultra-low-cost mobile phones using a multi-step encoding, compression and decoding scheme on a trie-based architecture. The system also supports In-place decompression of data to avoid loading of large chunks of data. Programming Language: C</p>
-        <p> Samsung, Noida  (2011 - 2013) </p>
+        <p>Noida  (2011 - 2013) </p>
     </div>
   </div>
   <div class="container left">
